@@ -54,5 +54,5 @@ export class NewCountryInput {
   emoji: string;
 
   @Field(() => ObjectId, { nullable: true })
-  continent?: ObjectId;
+  continent?: number;
 }
